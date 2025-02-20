@@ -1,0 +1,26 @@
+# 🔍 AI-Powered Natural Language Search for PostgreSQL  
+
+This project implements a **Natural Language Search Interface** using **Streamlit** and **OpenAI** to convert user queries into SQL and retrieve data from **PostgreSQL** efficiently. It also incorporates **vector search** using `pgvector` for enhanced text-based similarity searches.  
+
+---
+
+## 🚀 **Project Overview**  
+Many business applications rely on structured databases (like PostgreSQL) but struggle to provide an intuitive way for users to query data. This project enables users to **ask questions in natural language** (e.g., *"Show me all employees in the Engineering department earning above 50,000"*), and the system **translates it into SQL** to fetch relevant results.  
+
+### ✅ **Key Features**  
+✔️ **LLM-Powered SQL Generation**: Uses OpenAI to convert user queries into SQL.  
+✔️ **Hybrid Search**: Combines traditional SQL filtering with **vector similarity search** (`pgvector`).  
+✔️ **Secure Execution**: Query validation to prevent SQL injection risks.  
+✔️ **User-Friendly UI**: Built with Streamlit for an interactive experience.  
+
+---
+
+## 📌 **Tech Stack**  
+- **Backend**: Python (`FastAPI`, `asyncpg`, `pgvector`, `openai`)  
+- **Database**: PostgreSQL (with `pgvector` for embeddings)  
+- **Frontend**: Streamlit (for interactive UI)  
+- **LLM**: OpenAI (for NLP-to-SQL conversion)  
+
+---
+
+## 🏗️ **Project Structure**

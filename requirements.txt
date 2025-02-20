@@ -1,0 +1,9 @@
+streamlit
+asyncio
+asyncpg
+pgvector
+openai
+python-dotenv
+psycopg2
+httpx
+loguru
