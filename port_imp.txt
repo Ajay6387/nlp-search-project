@@ -1,0 +1,8 @@
+IMPORTANT:
+If any error occurs related to the connection, such as:
+❌ Connection Failed: [Errno 11001] getaddrinfo failed
+
+Try changing the port in `config_setting.py` under `DB_CONFIG`.  
+Ensure that the database URL and port are correctly set.  
+Recommended port: 5432  
+If port: 5432  is not working check with 6543
