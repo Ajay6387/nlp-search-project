@@ -41,12 +41,17 @@ Many business applications rely on structured databases (like PostgreSQL) but st
 💡 Solution: Optimized database indexes & query caching to improve performance.
 
 **## How to Run the Project 🚀**
-
+---------------------------------------------------------------------
+Add Your OpenAI API Key
+This project requires an OpenAI API key for generating responses.
+---------------------------------------------------------------------
+Add your opnai key in .env file in the root directory of the project.
+-----------------------------------------------------------------------
 To start the project, run the following command in your terminal:
+--------------------------------------------------------------
 
-```bash
 streamlit run streamlit_app.py
-```
+---------------------------------------
 
 ### Requirements:
 - Ensure you have **Python 3.8+** installed.
@@ -55,10 +60,10 @@ streamlit run streamlit_app.py
   ```bash
   pip install -r requirements.txt
   ```
-
+-------------------------------------------------------------------------------------
 - If you face database connection issues, check **port_imp.txt** for troubleshooting.
 
----
+-------------------------
 
 This will help others understand how to execute the project easily. 🎯
 
