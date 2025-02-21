@@ -9,7 +9,7 @@ DB_CONFIG = {
     "password": "AjayRajput@9555",
     "database": "postgres",  
     "host": "db.rxsqnewbzxstvrmteurc.supabase.co",  
-    "port": "6543",
+    "port": "5432",
     "ssl": "require" 
 }
 
